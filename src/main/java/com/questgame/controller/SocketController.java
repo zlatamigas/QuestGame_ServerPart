@@ -13,12 +13,14 @@ import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.Mapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.ArrayList;
 import java.util.Map;
 
 
-@Controller
+//@Controller
+@RestController
 @RequiredArgsConstructor
 @Slf4j
 public class SocketController {
