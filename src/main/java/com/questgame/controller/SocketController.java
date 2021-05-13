@@ -11,6 +11,8 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.messaging.handler.annotation.MessageMapping;
 import org.springframework.messaging.handler.annotation.SendTo;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.Mapping;
 
 import java.util.ArrayList;
 import java.util.Map;
@@ -118,4 +120,8 @@ public class SocketController {
         return "Hi? it works! or not?";
     }
 
+    @GetMapping("/hello")
+    public String testHello(){
+        return "Welcome! Controller works?";
+    }
 }
