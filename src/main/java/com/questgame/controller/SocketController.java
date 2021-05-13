@@ -19,8 +19,7 @@ import java.util.ArrayList;
 import java.util.Map;
 
 
-//@Controller
-@RestController
+@Controller
 @RequiredArgsConstructor
 @Slf4j
 public class SocketController {
@@ -120,10 +119,5 @@ public class SocketController {
 //    }
 
         return "Hi? it works! or not?";
-    }
-
-    @GetMapping("/hello")
-    public String testHello(){
-        return "Welcome! Controller works?";
     }
 }
