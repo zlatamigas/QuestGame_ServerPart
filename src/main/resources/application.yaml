@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: jdbc:postgresql://ec2-52-87-107-83.compute-1.amazonaws.com:5432/d2ik4515epifkm
-    username: wzckbfxdtcelli
-    password: f0a2a9bd0d093be34bd0fab92f601dd5f27a3c672f568afcc3dc8a8cd8d63fe0
+    url: jdbc:postgresql://ec2-54-225-228-142.compute-1.amazonaws.com:5432/df2s2mk6vf9pkh
+    username: vdayzamtfimrdb
+    password: 7da0c43bd1bf59a9dd9c3bdcdf3113fc76efeb08fa147673af4f18865e703e21
     driver-class-name: org.postgresql.Driver
 
   flyway:
