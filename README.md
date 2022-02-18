@@ -1,2 +1,2 @@
-# TP_Quest_2
+# QuestGame_ServerPart
 Проложение Quest Game под iOS. Серверная часть.
